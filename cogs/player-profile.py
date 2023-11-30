@@ -8,7 +8,7 @@ class PlayerProfile(Cog):
         self.bot = bot
     
     @slash_command(name="compare-players", description="A simple hello command", guild_ids=[1037945054062444604])
-    async def player_compare(self, inter: Interaction) -> None:
+    async def player_profile(self, inter: Interaction) -> None:
         await inter.send("Hello!")
         
 def setup(bot: Bot) -> None:
